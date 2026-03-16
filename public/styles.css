@@ -1,0 +1,46 @@
+:root {
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #1f2937;
+  background: #f4f6fb;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
+  padding: 1.5rem;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+.actions { margin-top: 1rem; display: flex; gap: 0.75rem; }
+button {
+  background: #1d4ed8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+button.secondary { background: #475569; }
+.status { min-height: 1.3rem; color: #475569; margin-top: .6rem; }
+.result-section { margin-top: 1.25rem; }
+.annotated {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  min-height: 120px;
+  padding: .9rem;
+  white-space: pre-wrap;
+  background: #f8fafc;
+  line-height: 1.7;
+}
+.emphasis-bold { font-weight: 700; }
+.emphasis-italic { font-style: italic; }
+.empty { color: #64748b; }

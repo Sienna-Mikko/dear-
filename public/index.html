@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPT 文本重点提取器</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>GPT 文本重点提取器</h1>
+      <p class="intro">输入 GPT 文本，点击“AI 分析”，后端会调用 Kimi API 返回三类结果。</p>
+
+      <label for="inputText">输入文本</label>
+      <textarea id="inputText" rows="10" placeholder="粘贴文本..."></textarea>
+
+      <div class="actions">
+        <button id="analyzeBtn">AI 分析</button>
+        <button id="demoBtn" class="secondary">填充示例</button>
+      </div>
+
+      <p id="status" class="status"></p>
+
+      <section class="result-section">
+        <h2>加粗：短句/词语（1-5）</h2>
+        <ol id="boldShortList"></ol>
+      </section>
+
+      <section class="result-section">
+        <h2>加粗：长句（1-5）</h2>
+        <ol id="boldLongList"></ol>
+      </section>
+
+      <section class="result-section">
+        <h2>倾斜：短句（1-3）</h2>
+        <ol id="italicShortList"></ol>
+      </section>
+
+      <section class="result-section">
+        <h2>标注后的文本</h2>
+        <div id="annotatedText" class="annotated"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

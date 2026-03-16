@@ -1,0 +1,126 @@
+:root {
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #1f2937;
+  background: #f4f6fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+
+  max-width: 960px;
+
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
+  padding: 1.5rem;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.intro {
+  color: #475569;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+button {
+  background: #1d4ed8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+button.secondary {
+  background: #475569;
+}
+
+
+.rule-note {
+  margin-top: 1.25rem;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.rule-note h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.rule-note ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #334155;
+}
+
+
+.result-section {
+  margin-top: 1.5rem;
+}
+
+
+ol {
+
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #0f172a;
+}
+
+.annotated {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  min-height: 140px;
+  padding: 0.9rem;
+  white-space: pre-wrap;
+  line-height: 1.7;
+  background: #f8fafc;
+}
+
+
+.emphasis-bold {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.emphasis-italic {
+
+  font-style: italic;
+  color: #0f172a;
+}
+
+.empty {
+  color: #64748b;
+}
